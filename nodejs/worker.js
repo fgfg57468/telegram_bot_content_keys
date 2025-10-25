@@ -68,9 +68,9 @@ async function sendTelegramMessage(chatId, text, env) {
 
 router.post('/webhook', async (request, env) => {
   const secret = request.headers.get('X-Telegram-Bot-Api-Secret-Token');
-  if (secret !== env.WEBHOOK_SECRET) {
+  /*if (secret !== env.WEBHOOK_SECRET) {
     return new Response('Unauthorized', { status: 401 });
-  }
+  }*/
 
   let update;
   try {
