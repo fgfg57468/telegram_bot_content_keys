@@ -1,0 +1,6 @@
+name = "tg-key-bot"
+main = "worker.js"
+compatibility_date = "2025-10-26"
+
+# Переменные окружения задаются в Dashboard или через wrangler secret
+# Не храните секреты в этом файле!

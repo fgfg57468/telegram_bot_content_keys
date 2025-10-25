@@ -1,0 +1,16 @@
+{
+  "name": "tg-key-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for one-time keys via Cloudflare Workers",
+  "main": "worker.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "dependencies": {
+    "itty-router": "^4.0.11"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
